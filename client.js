@@ -23,10 +23,6 @@ const connect = function(data) {
   //   }, 2000);
   // }));
 
-
-
-
-
   // Displays a message to player that they sat idle.
   conn.on('data', (data) => {
     console.log(data.toString());
