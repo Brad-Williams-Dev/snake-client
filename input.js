@@ -1,3 +1,5 @@
+const movement = require('./constants');
+
 let connection;
 
 const setupInput = conn => {
@@ -11,6 +13,7 @@ const setupInput = conn => {
 };
 
 const handleUserInput = function(key) {
+
   if (key === '\u0003') {
     process.exit();
   }
